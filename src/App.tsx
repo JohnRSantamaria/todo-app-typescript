@@ -1,6 +1,11 @@
 import { useState } from 'react'
-import { Todos } from './components/todos'
-import { TodoTitle, type FilterValue, type TodoId, type Todo as TodoType } from './types'
+import { Todos } from './components/Todos'
+import {
+  type TodoTitle,
+  type FilterValue,
+  type TodoId,
+  type Todo as TodoType
+} from './types'
 import { TODO_FILTERS } from './const'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
@@ -8,27 +13,7 @@ import { Header } from './components/Header'
 const mockTodos = [
   {
     id: '1',
-    title: 'todo 1',
-    completed: false
-  },
-  {
-    id: '2',
-    title: 'todo 1',
-    completed: false
-  },
-  {
-    id: '3',
-    title: 'todo 1',
-    completed: false
-  },
-  {
-    id: '4',
-    title: 'todo 1',
-    completed: false
-  },
-  {
-    id: '5',
-    title: 'todo 1',
+    title: 'Tarea 1',
     completed: false
   }
 ]
